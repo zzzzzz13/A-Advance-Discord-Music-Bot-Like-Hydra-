@@ -1,6 +1,6 @@
 {
   "token": "your_bot_token",
-  "prefix": "your_prefix",
+  "prefix": "!!",
 
   "clientsettings": {
     "nodes": [
