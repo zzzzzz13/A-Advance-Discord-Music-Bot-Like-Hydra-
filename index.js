@@ -33,4 +33,4 @@ client.modActions = new Enmap({ name: 'actions', dataDir: "./databases/warns" })
 client.userProfiles = new Enmap({ name: 'userProfiles', dataDir: "./databases/warns" });
 
 //login into the bot
-client.login(require("./botconfig/config.json").token);
+client.login(process.env.TOKEN);
